@@ -16,6 +16,9 @@ Custom ESP32-C3 Supermini controller for the Gaggia Classic Pro. Handles boiler 
 | Mode toggle | Momentary to GND on GPIO20, firmware latched |
 | Temp buttons | Resistor ladder on GPIO21 — up 10kΩ, down 47kΩ, 10kΩ pullup |
 | Pot wiper | GPIO3, replacement pot coming (100nF cap to GND) |
+=======
+# Electrical Schematic
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/6106e972-beaf-4b9a-ba1f-e3d61d97681c" />
 
 ## Firmware Features
 
@@ -52,6 +55,6 @@ Custom ESP32-C3 Supermini controller for the Gaggia Classic Pro. Handles boiler 
 - Housing design in FreeCAD
 
 ## Repository Contents
-
     /ESPresso    — Arduino sketch (ESP32-C3)
     /docs        — wiring notes and schematic
+
