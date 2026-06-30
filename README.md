@@ -34,25 +34,17 @@ Custom ESP32-C3 Supermini controller for the Gaggia Classic Pro. Handles boiler 
 |------|----------|--------|
 | 0 | free | — |
 | 1 | Brew switch sense | wired |
-| 2 | MOC3021 PWM out | wired, pending MOC3041 + snubber |
-| 3 | Pot wiper ADC | not yet wired |
+| 2 | MOC3041 PWM out | wired |
+| 3 | free | — |
 | 4 | MAX31855 SCK | wired |
 | 5 | MAX31855 MISO | wired |
-| 6 | Pressure transducer ADC | not yet wired |
+| 6 | Pressure transducer ADC | wired |
 | 7 | MAX31855 CS | wired |
 | 8 | OLED SDA | wired |
 | 9 | OLED SCL | wired |
 | 10 | SSR boiler out | wired |
 | 20 | Mode toggle button | wired |
 | 21 | Resistor ladder buttons | wired |
-
-## Pending
-
-- MOC3041 (zero crossing) to replace MOC3021 — required for AC pump PWM
-- X2 snubber capacitor (100nF/275VAC) + 39Ω across TRIAC MT1-MT2
-- XDB401 pressure transducer wiring and firmware
-- Replacement pot for pressure profiling
-- Housing design in FreeCAD
 
 ## Repository Contents
     /ESPresso    — Arduino sketch (ESP32-C3)
